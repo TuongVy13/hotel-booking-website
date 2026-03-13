@@ -1,0 +1,51 @@
+/*Progress Bar Colors*/
+ol.vbo-stepbar li.vbo-step-complete:before {
+    background-color: #f3a200;
+}
+
+/* Room List Box Shadow*/
+.room_result {
+    box-shadow: 0 4px 8px 0 rgb(65 65 65 / 20%), 0 6px 20px 0 rgb(169 169 169 / 19%);
+}
+
+
+/*Search Form Button Color*/
+.vbsearchinputmodhors {
+    background: #00012A !important ;
+}
+
+/*Search Form Button Hover Color*/
+.vbsearchinputmodhors:hover {
+    background: #F3A200 !important;
+}
+
+/*Room List Button Color*/
+.vbselectr a, .vbselectr-result {
+    background: #00012A;
+}
+
+/*Room List Button Hover Color*/
+.vbselectr a:hover, .vbselectr-result :hover {
+	background-color: #F3A200;
+	color: #000;
+}
+
+/*Booking Search Form Button Css*/
+.vbo-search-submit .btn {
+    background: #00012A;
+}
+
+/*Booking Search Form Spacing Css*/
+.vbdivsearch .vb-search-inner {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .9em;
+    padding-left: 200px;
+}
+
+/*Booking Search Form Css*/
+.vbdivsearch {
+    padding: 25px;
+    background: #ffffff;
+    width: 100%;
+    box-shadow: -10px 10px 10px #8989892b;
