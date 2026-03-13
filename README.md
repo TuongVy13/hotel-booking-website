@@ -20,13 +20,18 @@ It was developed as a university coursework project to practice web development 
 
 ## 📂 Project Structure
 hotel-booking-website/
-│── index.php
-│── /css
-│── /js
-│── /images
-│── /db
-│── /pages
-│── README.md
+## 📂 Project Structure
+hotel-booking-website/
+│── index.php              # Trang chính
+│── db.php                 # Kết nối cơ sở dữ liệu
+│── booking.php            # Xử lý đặt phòng
+│── check-availability.php # Kiểm tra phòng trống
+│── /admin                 # Quản lý phòng, khách hàng, đặt phòng
+│── /user                  # Giao diện và chức năng cho khách hàng
+│── /includes              # Các file cấu hình, hàm dùng chung
+│── /images                # Hình ảnh giao diện
+│── /vnpay                 # Tích hợp thanh toán VNPay
+
 
 ## ⚙️ Installation & Usage
 1. Clone this repository:
